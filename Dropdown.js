@@ -31,7 +31,7 @@ export default class Dropdown extends React.Component {
                     listItemSrc = {this.props.listSrc}
                     target = {this.props.target}
                     listOnClick = {this.props.listOnClick}
-                    style = {this.props.popStyle}
+                    style = {this.props.dropStyle}
                     listStyle = {this.props.listStyle}
                     boxStyle = {this.props.boxStyle}
                 />

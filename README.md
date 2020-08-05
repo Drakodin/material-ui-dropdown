@@ -6,6 +6,11 @@ Dropdown component built in the Material-UI style from existing components in co
 2. Whenever I figure out (or someone else figures out) how to make an npm module from my source code.
 
 ## How to use
+
+### Requirements
+React 16.8 or higher, Bootstrap 4 (for styling reasons; you can always override this with custom css classes)
+
+### Implementation
 ```
 import Dropdown from 'material-ui-dropdown/Dropdown';
 ...
@@ -32,3 +37,8 @@ import Dropdown from 'material-ui-dropdown/Dropdown';
 - **boxStyle**: CSS; In-line-styles for the ListItem components
 - **dropStyle**: CSS; In-line-styles for the DropdownList component
 - **listStyle**: CSS; In-line-styles to be applied to the List component
+
+## Sources/References
+1. [Material UI](https://material-ui.com/)
+2. [Bootstrap](https://getbootstrap.com/)
+3. [React](https://reactjs.org/)

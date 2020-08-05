@@ -6,8 +6,6 @@ const DropdownList = (props) => {
     const open = (props.open) ? props.open : true;
     const anchorEl = props.anchorEl;
     const onClose = props.onClose;
-    const anchorOrigin = props.anchorOrigin;
-    const transformOrigin = props.transformOrigin;
 
     const listItemSrc = props.src;
     const target = props.target;
@@ -23,8 +21,14 @@ const DropdownList = (props) => {
             style={style}
             anchorEl={anchorEl}
             onClose={onClose}
-            anchorOrigin={anchorOrigin}
-            transformOrigin={transformOrigin}
+            anchorOrigin={{
+                vertical: 'bottom',
+                horizontal: 'left',
+            }}
+            transformOrigin={{
+                vertical: 'top',
+                horizontal: 'left'
+            }}
         >
             <List style={listStyle}>
                 {listItemSrc.map((value) => (

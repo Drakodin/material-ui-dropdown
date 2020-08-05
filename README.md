@@ -8,13 +8,27 @@ Dropdown component built in the Material-UI style from existing components in co
 ## How to use
 ```
 import Dropdown from 'material-ui-dropdown/Dropdown';
-import Dropdown from 'material-ui-dropdown/DropdownList';
 ...
   return (
     ...
-    <Dropdown *some props go here*>
-      <DropdownList *other props go here* />
-    </Dropdown>
+    <Dropdown *props go here*/>
     ...
   )
 ```
+
+## Props (No docs at the moment)
+- **anchorEl**: *Node*; Anchor element of the DropdownList
+- **listItemSrc**: *Array*; Array of elements that will populate the DropdownList
+- **open**: *Boolean*; Determines whether or not the DropdownList is visible.
+- **target**: *Array*; Source to store the values of the checkboxes (controlled input)
+- **label**: *String*; Label to display inside the Dropdown
+
+### Functions
+- **listOnClick**: *Function*; Handles click event on checkbox/list items in DropdownList
+- **onClose**: *Function*; Handles onClose event of DropdownList
+- **onClick**: *Function*; Handles onClick event when clicking on the div itself, or the IconButton
+
+### CSS
+- **boxStyle**: CSS; In-line-styles for the ListItem components
+- **dropStyle**: CSS; In-line-styles for the DropdownList component
+- **listStyle**: CSS; In-line-styles to be applied to the List component

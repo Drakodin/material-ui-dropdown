@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typography, IconButton } from '@material-ui/core';
 import { ArrowDropDown, ArrowDropUp } from '@material-ui/icons';
+import DropdownList from './DropdownList';
 
 export default class Dropdown extends React.Component {
     constructor(props) {
@@ -9,8 +10,8 @@ export default class Dropdown extends React.Component {
 
     render() {
         return(
-            <div 
-                ref={this.anchorRef}
+            <>
+            <div
                 className="d-flex flex-row align-items-center"
                 onClick={this.props.onClick}
             >
@@ -22,6 +23,20 @@ export default class Dropdown extends React.Component {
                     }
                 </IconButton>
             </div>
+            <div>
+                <DropdownList
+                    open={this.props.open}
+                    onClose={this.props.onClose}
+                    anchorEl={(this.props.open) ? this : null}
+                    listItemSrc = {this.props.listSrc}
+                    target = {this.props.target}
+                    listOnClick = {this.props.listOnClick}
+                    style = {this.props.popStyle}
+                    listStyle = {this.props.listStyle}
+                    boxStyle = {this.props.boxStyle}
+                />
+            </div>
+            </>
         )
     }
 }

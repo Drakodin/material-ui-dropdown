@@ -5,7 +5,6 @@ import { ArrowDropDown, ArrowDropUp } from '@material-ui/icons';
 export default class Dropdown extends React.Component {
     constructor(props) {
         super(props);
-        this.anchorRef = React.createRef();
     }
 
     render() {
@@ -22,9 +21,6 @@ export default class Dropdown extends React.Component {
                         : <ArrowDropUp/>
                     }
                 </IconButton>
-                <div>
-                    {this.props.children(this)}
-                </div>
             </div>
         )
     }

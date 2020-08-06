@@ -2,6 +2,7 @@ import React from 'react';
 import { Typography, IconButton } from '@material-ui/core';
 import { ArrowDropDown, ArrowDropUp } from '@material-ui/icons';
 import DropdownList from './DropdownList';
+import 'dropdown.css';
 
 export default class Dropdown extends React.Component {
     constructor(props) {

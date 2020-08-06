@@ -15,7 +15,7 @@ export default class Dropdown extends React.Component {
             <>
             <div
                 ref={this.anchorRef}
-                className="d-flex flex-row align-items-center"
+                className={`d-flex flex-row align-items-center ${this.props.className}`}
                 onClick={this.props.onClick}
             >
                 <Typography className="ml-2 mr-2 no-text-select">{this.props.label}</Typography>

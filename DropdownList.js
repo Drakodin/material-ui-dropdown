@@ -3,7 +3,7 @@ import React from 'react';
 import { Popover, List, ListItem, ListItemIcon, ListItemText, Checkbox } from '@material-ui/core'
 
 const DropdownList = (props) => {
-    const open = (props.open) ? props.open : true;
+    const open = (props.open) ? props.open : false;
     const anchorEl = props.anchorEl;
     const onClose = props.onClose;
 

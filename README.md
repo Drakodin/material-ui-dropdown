@@ -37,6 +37,7 @@ import Dropdown from 'material-ui-dropdown/Dropdown';
 - **boxStyle**: CSS; In-line-styles for the ListItem components
 - **dropStyle**: CSS; In-line-styles for the DropdownList component
 - **listStyle**: CSS; In-line-styles to be applied to the List component
+- **className**: *String*; CSS class of outer Dropdown component (`<div>`)
 
 ## Sources/References
 1. [Material UI](https://material-ui.com/)

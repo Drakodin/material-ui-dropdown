@@ -32,7 +32,7 @@ const DropdownList = (props) => {
         >
             <List style={listStyle}>
                 {listItemSrc.map((value) => (
-                    <ListItem key={value} button onClick={listOnClick(value)}>
+                    <ListItem key={value} button onClick={() => listOnClick(value)}>
                         <ListItemIcon>
                             <Checkbox style={boxStyle}
                                 checked={target.indexOf(value) !== -1}

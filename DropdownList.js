@@ -7,7 +7,7 @@ const DropdownList = (props) => {
     const anchorEl = props.anchorEl;
     const onClose = props.onClose;
 
-    const listItemSrc = props.src;
+    const listItemSrc = props.listItemSrc;
     const target = props.target;
     const listOnClick = props.listOnClick;
 

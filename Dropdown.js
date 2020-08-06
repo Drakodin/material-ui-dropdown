@@ -6,12 +6,14 @@ import DropdownList from './DropdownList';
 export default class Dropdown extends React.Component {
     constructor(props) {
         super(props);
+        this.anchorRef = React.createRef();
     }
 
     render() {
         return(
             <>
             <div
+                ref={this.anchorRef}
                 className="d-flex flex-row align-items-center"
                 onClick={this.props.onClick}
             >
@@ -27,7 +29,7 @@ export default class Dropdown extends React.Component {
                 <DropdownList
                     open={this.props.open}
                     onClose={this.props.onClose}
-                    anchorEl={(this.props.open) ? this : null}
+                    anchorEl={(open) ? this.anchorRef.current : null}
                     listItemSrc = {this.props.listSrc}
                     target = {this.props.target}
                     listOnClick = {this.props.listOnClick}

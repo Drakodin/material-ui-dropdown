@@ -29,7 +29,7 @@ export default class Dropdown extends React.Component {
                 <DropdownList
                     open={this.props.open}
                     onClose={this.props.onClose}
-                    anchorEl={(open) ? this.anchorRef.current : null}
+                    anchorEl={(this.props.open) ? this.anchorRef.current : null}
                     listItemSrc = {this.props.listSrc}
                     target = {this.props.target}
                     listOnClick = {this.props.listOnClick}

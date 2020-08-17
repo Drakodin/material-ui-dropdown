@@ -25,7 +25,8 @@
         "incremental": true,
     },
     "include": [
-        "src/**/*"
+        "./Dropdown",
+        "./DropdownList"
     ],
     "exclude": [
         "node_modules",

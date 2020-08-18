@@ -13,12 +13,12 @@
 
 /* Styling for variant prop */
 
-.Mui-drop-default {
+.Mui-drop-light {
     transition-duration: 0.4s;
     border: none;
 }
 
-.Mui-drop-default:hover {
+.Mui-drop-light:hover {
     background-color: #eee;
     cursor: pointer;
 }

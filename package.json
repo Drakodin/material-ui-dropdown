@@ -4,5 +4,6 @@
     "@material-ui/icons": "^4.9.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  }
+  },
+  "typings": "./dropdown/index.d.ts"
 }

@@ -13,6 +13,10 @@
 
 /* Styling for variant prop */
 
+.Mui-drop-default {
+    background-color: white;
+}
+
 .Mui-drop-light {
     transition-duration: 0.4s;
     border: none;

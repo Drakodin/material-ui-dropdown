@@ -2,7 +2,7 @@
 Dropdown component built in the Material-UI style from existing components in core/lab/icons
 
 ## How to install
-1. `git clone <repo-link>` and move the repository (minus the .git and etc.) into the project folder
+1. `git clone <repo-link>` and move the repository's subfolders (minus the .git and etc.) into the project folder
 2. Whenever I figure out (or someone else figures out) how to make an npm module from my source code.
 
 ## How to use
@@ -12,7 +12,8 @@ React 16.8 or higher, Bootstrap 4 (for styling reasons; you can always override 
 
 ### Implementation
 ```
-import Dropdown from 'material-ui-dropdown/Dropdown';
+import Dropdown from './dropdown/Dropdown';
+// Or do "import { Dropdown } from './dropdown';
 ...
   return (
     ...
@@ -37,7 +38,7 @@ import Dropdown from 'material-ui-dropdown/Dropdown';
 - **boxStyle**: CSS; In-line-styles for the ListItem components
 - **dropStyle**: CSS; In-line-styles for the DropdownList component
 - **listStyle**: CSS; In-line-styles to be applied to the List component
-- **className**: *String*; CSS class of outer Dropdown component (`<div>`)
+- **variant**: *String*; Current variants are default, light, and dark. They can be overrided like normal CSS w/o the need for Material's `classes` prop.
 
 ## Sources/References
 1. [Material UI](https://material-ui.com/)

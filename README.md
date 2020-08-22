@@ -38,7 +38,7 @@ import Dropdown from './dropdown/Dropdown';
 - **boxStyle**: CSS; In-line-styles for the ListItem components
 - **dropStyle**: CSS; In-line-styles for the DropdownList component
 - **listStyle**: CSS; In-line-styles to be applied to the List component
-- **variant**: *String*; Current variants are default, light, dark, and custom. Override 'custom' with `Mui-drop-custom` to apply custom styles.
+- **variant**: *String*; Current variants are default, light, dark, and custom. Override 'custom' with the `Mui-drop-custom` class to apply custom styles.
 
 ## Sources/References
 1. [Material UI](https://material-ui.com/)

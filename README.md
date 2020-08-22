@@ -1,5 +1,5 @@
 # material-ui-dropdown
-Dropdown component built in the Material-UI style from existing components in core/lab/icons
+Dropdown component built in the Material-UI style from existing components in core/lab/icons, with some Bootstrap for 
 
 ## How to install
 1. `git clone <repo-link>` and move the repository's subfolders (minus the .git and etc.) into the project folder
@@ -38,7 +38,7 @@ import Dropdown from './dropdown/Dropdown';
 - **boxStyle**: CSS; In-line-styles for the ListItem components
 - **dropStyle**: CSS; In-line-styles for the DropdownList component
 - **listStyle**: CSS; In-line-styles to be applied to the List component
-- **variant**: *String*; Current variants are default, light, and dark. They can be overrided like normal CSS w/o the need for Material's `classes` prop.
+- **variant**: *String*; Current variants are default, light, dark, and custom. Override 'custom' with `Mui-drop-custom` to apply custom styles.
 
 ## Sources/References
 1. [Material UI](https://material-ui.com/)

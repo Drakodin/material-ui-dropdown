@@ -8,7 +8,7 @@ Dropdown component built in the Material-UI style from existing components in co
 ## How to use
 
 ### Requirements
-React 16.8 or higher, Bootstrap 4 (for styling reasons; you can always override this with custom css classes)
+React 16.8 or higher, Bootstrap 4 (A bootstrap flex-box class is attached to the base of the Dropdown; this may change in the future to remove this dependency)
 
 ### Implementation
 ```
@@ -22,7 +22,7 @@ import Dropdown from './dropdown/Dropdown';
   )
 ```
 
-## Props (No docs at the moment)
+## Props
 - **anchorEl**: *Node*; Anchor element of the DropdownList
 - **listItemSrc**: *Array*; Array of elements that will populate the DropdownList
 - **open**: *Boolean*; Determines whether or not the DropdownList is visible.
@@ -45,7 +45,7 @@ import Dropdown from './dropdown/Dropdown';
 2. [Bootstrap](https://getbootstrap.com/)
 3. [React](https://reactjs.org/)
 
-## Live on CodeSandbox
-[![Edit mui-dropdown-csb](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/mui-dropdown-csb-rw7xz?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.js&theme=dark)
+## Live Demos
+**Website**
 
-\* I don't have an account, I just needed a host.
+[Dropdown w/ variants](https://drakodin.github.io/#/projects/mui-dropdown)

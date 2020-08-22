@@ -47,6 +47,6 @@
     transition-duration: 0.4s;
 }
 
-.Mui-drop-custom {
+.Mui-drop-custom:hover {
     cursor: pointer;
 }
